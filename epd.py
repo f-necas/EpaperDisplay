@@ -107,9 +107,3 @@ def update_screen(img):
 def print_image(img):
     # img = Image.open(imageUrl)
     update_screen(img)
-    GPIO.cleanup()
-
-
-
-# print_image(sys.argv[1])
-# GPIO.cleanup()
